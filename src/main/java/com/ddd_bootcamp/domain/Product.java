@@ -1,14 +1,11 @@
 package com.ddd_bootcamp.domain;
 
 public class Product {
-    String name;
-    Price price;
+    private String name;
 
-    public Product(String name,Price price ) {
+    public Product(String name) {
         this.name = name;
-        this.price = price;
     }
-    //public Product(){}
 
     public String getName() {
         return name;
